@@ -3,7 +3,11 @@ package com.java8;
 public class Employee {
 
     private int Id;
+<<<<<<< HEAD
     private String Name="ECLIPSE";
+=======
+    private String Name="INTELLIJ";
+>>>>>>> 9b66201e224f65d02cad223b38895ba17eabed7b
     private String Email;
     private String Dept;
     private  double Salary;
