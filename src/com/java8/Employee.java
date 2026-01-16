@@ -3,7 +3,7 @@ package com.java8;
 public class Employee {
 
     private int Id;
-    private String Name;
+    private String Name="ECLIPSE";
     private String Email;
     private String Dept;
     private  double Salary;
