@@ -24,7 +24,7 @@ public class Employee {
         Id = id;
     }
 
-    public String getName() {
+    public  String getName() {
         return Name;
     }
 
