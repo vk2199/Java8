@@ -21,6 +21,7 @@ public class Main {
                 .map(String::toUpperCase)
                 .toList();
 
+        System.out.println("Names in upper case");
         System.out.println(upperCaseNames);
 
 
