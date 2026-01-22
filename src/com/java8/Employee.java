@@ -57,4 +57,15 @@ public class Employee {
     public void setSalary(double salary) {
         Salary = salary;
     }
+
+    @Override
+    public String toString() {
+        return "Employee{" +
+                "Id=" + Id +
+                ", Name='" + Name + '\'' +
+                ", Email='" + Email + '\'' +
+                ", Dept='" + Dept + '\'' +
+                ", Salary=" + Salary +
+                '}';
+    }
 }

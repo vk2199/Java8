@@ -9,9 +9,6 @@ public class Main {
         List<Employee> employeeList= Arrays.asList(
                 new Employee(1010,"Aman Kushwaha","aman@gmail.com","IT",56000),
                 new Employee(1110,"Ramesh Kumar","Ramesh@gmail.com","HR",46000),
-
-
-
                 new Employee(1122,"Raj Kumar","Raj@gmail.com","IT",45678)
 
         );
@@ -29,6 +26,10 @@ public class Main {
         System.out.println("Names in upper case");
         System.out.println(upperCaseNames);
 
+        //Find Employee by IT and Name
+        employeeList.stream()
+                .filter(emp -> emp.getDept().equals("IT"))
+                .forEach(print-> System.out.println("Name:"+print.getName()+" "+"Email :"+print.getEmail()));
 
     }
 
