@@ -9,7 +9,11 @@ public class Main {
         List<Employee> employeeList= Arrays.asList(
                 new Employee(1010,"Aman Kushwaha","aman@gmail.com","IT",56000),
                 new Employee(1110,"Ramesh Kumar","Ramesh@gmail.com","HR",46000),
-                new Employee(1122,"Amit Kumar","Amit@gmail.com","IT",45678)
+
+
+
+                new Employee(1122,"Raj Kumar","Raj@gmail.com","IT",45678)
+
         );
 
         //Find the size of employee
